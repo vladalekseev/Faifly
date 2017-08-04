@@ -1,0 +1,133 @@
+@media screen and (min-width: 960px) {
+    .wrapper {
+        width: 960px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .section-head__title {
+        flex-wrap: wrap;
+    }
+
+    .aside__categories li {
+        text-indent: 20px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .top-header .wrapper {
+        justify-content: center;
+    }
+
+    .head-content_bag {
+        background: none
+    }
+
+    .main-nav__menu {
+        justify-content: center;
+    }
+
+    .aside__categories li {
+        text-indent: 10px;
+        text-align: center;
+    }
+
+    .section-content aside{
+        flex: 0 1 60%;
+        margin: auto;
+    }
+
+    .section-content main{
+        flex: 1 1 100%
+    }
+
+    .main__sort {
+        margin-top: 35px;
+    }
+
+    .footer__top-item {
+        line-height: 30px;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+    .top-header__menu {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .head-content_text {
+        flex: 0 1 100%
+    }
+
+    .head-content {
+        background: linear-gradient(0deg, #c91612 50%, #db7075 50%)
+    }
+
+    .head-content .wrapper>div, .head-content .wrapper>h1 {
+        padding: 20px;
+    }
+
+    .section-head__title{
+        display: none;
+    }
+
+    .featured__slider-item {
+        width: 80%;
+        margin: auto;
+    }
+
+    .featured__slider-item img {
+        max-width: 100%;
+    }
+
+    .main__products {
+        justify-content: center;
+    }
+
+    .sort_select >div input{
+        margin: 5px auto;
+    }
+
+    .footer__top-item {
+        line-height: 60px;
+    }
+    .footer__top {
+        padding: 30px 0;
+    }
+
+    .footer__top > div{
+        text-align: center;
+        flex: 0 1 80%;
+        margin: auto;
+    }
+    .footer__top .footer-content_search-wrap {
+        flex: 0 1 80%;
+    }
+
+    .footer__map .wrapper {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .footer__map-section {
+        flex: 0 1 50%
+    }
+
+
+    .section-content aside{
+        flex: 0 1 80%;
+        margin: auto;
+    }
+
+
+}
+
+
+@media screen and (max-width: 320px) {
+
+}

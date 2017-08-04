@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "Bebas";
+    font-style: normal;
+    font-weight: bold;
+    src: url('../fonts/Bebas/Bebas.eot');
+    src: url('../fonts/Bebas/Bebas.eot?#iefix') format("embedded-opentype"),
+    url('../fonts/Bebas/Bebas.woff') format("woff"),
+    url('../fonts/Bebas/Bebas.ttf') format("truetype");
+}
